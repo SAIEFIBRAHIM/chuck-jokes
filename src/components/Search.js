@@ -46,7 +46,7 @@ const Search = () => {
           onBlur={(e) => {
             setTimeout(() => {
               setShowList("none");
-            }, 100);
+            }, 200);
           }}
           tabIndex={0}
           onKeyDown={(e) => {
